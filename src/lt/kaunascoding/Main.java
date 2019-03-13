@@ -31,7 +31,7 @@ public class Main {
         metodas3();
         metodas5("Deividas ");
         metodas4('m', '/');
-        AllwaysTrue();
+        AllwaysTrue(6);
 
     }
 
@@ -62,7 +62,8 @@ public class Main {
         System.out.println(x);
     }
 
-    private static boolean AllwaysTrue() {
-        return true;
+    private static boolean AllwaysTrue(int x) {
+        System.out.println("tiesa");
+        return AllwaysTrue();
     }
 }
