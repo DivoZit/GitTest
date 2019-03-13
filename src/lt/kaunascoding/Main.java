@@ -30,7 +30,7 @@ public class Main {
         metodas2();
         metodas3();
         metodas5("Deividas ");
-        metodas4("d", "/")
+        metodas4('m', '/');
         AllwaysTrue();
 
     }
@@ -53,8 +53,8 @@ public class Main {
     }
 
     private static String metodas4(char k, char l) {
-        System.out.println(k + l);
-        return (k + l);
+        System.out.println(k + "" + l);
+        return (k + "" + l);
     }
 
     private static void metodas5(String x) {
